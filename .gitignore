@@ -1,0 +1,11 @@
+# Openzeppelin library
+node_modules/*
+
+# Compilation artifacts
+build/*
+
+# npm files
+package*.json
+
+# Truffle Config
+truffle-config.js
