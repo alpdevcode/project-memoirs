@@ -9,3 +9,6 @@ package*.json
 
 # Truffle Config
 truffle-config.js
+
+# Moralis Config
+moralis-config.js
