@@ -1,7 +1,9 @@
 pragma solidity ^0.8;
 
-import "../../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "../../node_modules/@openzeppelin/contracts/token/ERC721/presets/ERC721PresetMinterPauserAutoId.sol";
 
-contract Photographs is ERC721 {
-
+// TODO: Photographs -> intended ERC-721 name
+// TODO: Provide baseTokenURI
+contract Photographs is ERC721PresetMinterPauserAutoId {
+    constructor() ERC721PresetMinterPauserAutoId("Photographs", "PTG", "") {}
 }
